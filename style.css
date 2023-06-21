@@ -1,11 +1,12 @@
 
 body{
 font-family: 'IBM Plex Mono', monospace;
-font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif; }
+
 
 /*  HEADER  */
 
-}
+
 .head-container{
 background-color: #240240;
 height: 120px;
@@ -209,6 +210,8 @@ font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .skill-style{
+width: 100px;
+height: 40px;
 height:max-content;
 border: #fff 1px solid;
 color: #fff;
@@ -229,12 +232,26 @@ flex-wrap: wrap;
 }
 
 .skills-tools-img{
-width: 100px;
-height: 60px;
+
 background-color: #4b4220;
 margin-bottom: 6px;
 }
 
+
+i{
+width: 100px;
+height: 80px;
+
+}
+   
+.fa-brands{
+font-size:70px;
+color:#ffffff;
+}
+ 
+
+
+   
 /* SECTION PROJECTS  */
 
 .projects-container{
