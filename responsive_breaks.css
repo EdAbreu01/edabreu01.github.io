@@ -251,13 +251,19 @@ align-items: center;
         /* PROJECTS */
         
         .project-title{
-        font-size: 1.4em;
-        font-family: 'IBM Plex Sans', sans-serif;
-        font-weight: 700;
-        margin-bottom: 8px;
-        text-align: center;
-        
-        }
+            font-size: 1.3em;
+            font-family: 'IBM Plex Mono', monospace;
+            font-weight: 700;
+            margin-bottom: 8px;
+            text-align: center;
+            line-height: 1.5em;
+            }
+            
+            .project-title a{
+            color:#fff;
+            text-decoration: none;
+            }
+            
         
         
         .project-style{
@@ -272,8 +278,8 @@ align-items: center;
         font-size: 0.95em;
         font-family: 'IBM Plex Sans', sans-serif;
         display: flex;
-        flex-direction: column;
-        justify-content: end;
+       flex-wrap: wrap;
+        justify-content:center;
         
         }
         
@@ -623,13 +629,19 @@ margin: 80px auto;
 /* PROJECTS */
 
 .project-title{
-font-size: 1.4em;
-font-family: 'IBM Plex Sans', sans-serif;
-font-weight: 700;
-margin-bottom: 8px;
-text-align: center;
-
-}
+    font-size: 1.3em;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-align: center;
+    line-height: 1.5em;
+    }
+    
+    .project-title a{
+    color:#fff;
+    text-decoration: none;
+    }
+    
 
 
 .project-style{
@@ -645,7 +657,7 @@ font-size: 0.95em;
 font-family: 'IBM Plex Sans', sans-serif;
 display: flex;
 flex-direction: column;
-justify-content: end;
+justify-content: center;
 
 }
 
@@ -994,13 +1006,19 @@ margin: 80px auto;
 /* PROJECTS */
 
 .project-title{
-font-size: 1.4em;
-font-family: 'IBM Plex Sans', sans-serif;
-font-weight: 700;
-margin-bottom: 8px;
-text-align: center;
-
-}
+    font-size: 1.3em;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-align: center;
+    line-height: 1.5em;
+    }
+    
+    .project-title a{
+    color:#fff;
+    text-decoration: none;
+    }
+    
 
 
 .project-style{
@@ -1016,7 +1034,7 @@ font-size: 0.95em;
 font-family: 'IBM Plex Sans', sans-serif;
 display: flex;
 flex-direction: column;
-justify-content: end;
+justify-content: center;
 
 }
 
@@ -1286,8 +1304,22 @@ color: #fff;
         font-family: 'IBM Plex Sans', sans-serif;
         display: flex;
         flex-direction: column;
-        justify-content: end;
+        justify-content: center;
         }
+        .project-title{
+            font-size: 1.3em;
+            font-family: 'IBM Plex Mono', monospace;
+            font-weight: 700;
+            margin-bottom: 8px;
+            text-align: center;
+            line-height: 1.5em;
+            }
+            
+            .project-title a{
+            color:#fff;
+            text-decoration: none;
+            }
+            
         
         
         .projects-contents{
@@ -1317,7 +1349,7 @@ color: #fff;
         font-family: 'IBM Plex Sans', sans-serif;
         display: flex;
         flex-direction: column;
-        justify-content: end;
+        justify-content: center;
         }
         
         
@@ -1568,7 +1600,7 @@ color: #fff;
         font-family: 'IBM Plex Sans', sans-serif;
         display: flex;
         flex-direction: column;
-        justify-content: end;
+        justify-content: center;
         }
         
         
@@ -1599,7 +1631,7 @@ color: #fff;
         font-family: 'IBM Plex Sans', sans-serif;
         display: flex;
         flex-direction: column;
-        justify-content: end;
+        justify-content: center;
         }
         
         
@@ -1891,22 +1923,6 @@ color: #fff;
         justify-content: center;
         }
             
-            
-        .project-style{
-        width: 90%;
-        padding: 26px;
-        height:200px;
-        border: #fff 1px solid;
-        color: #fff;
-        display: flex;
-        align-items: center;
-        border-radius: 6px;
-        font-size: 0.95em;
-        font-family: 'IBM Plex Sans', sans-serif;
-        display: flex;
-        flex-direction: column;
-        text-decoration: none;
-        }
         
         .project-style h4 a{
         color: #fff;
