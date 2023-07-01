@@ -1,0 +1,191 @@
+body {
+    margin: 0px;
+    height: 1000px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(white-brick-wall1.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+}
+/* HEADER */
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(29, 18, 56);
+    padding: 20px 0;
+    
+    }
+    
+    .headline2{
+    margin-top: 0px;
+    }
+    
+    .box{
+        position: relative;
+        margin: auto;
+        width: 940px;
+        
+        }
+        
+    
+    ul {
+        position: absolute;
+        top: 5px;
+        right: 0px;
+    
+    }
+    
+    ul li {
+        display: inline-block;
+        font-size: 15pt;
+        margin-left: 10px;
+        padding: 10px 20px;
+        border-radius: 6px;
+        transition: 0.5s;
+    
+    }
+    
+    ul li:hover {
+        display: inline-block;
+        font-size: 15pt;
+        margin-left: 10px;
+        background-color: rgb(49, 45, 165);
+        padding: 10px 20px;
+        border-radius: 6px;
+    
+    }
+    
+    
+    ul li a {
+        text-decoration:none;
+        text-transform: uppercase;
+        color: rgb(0, 204, 240);
+    }
+
+.card{
+    display: inline-block;
+    background-color: rgb(212, 212, 212);
+    width:250px;
+    height: 400px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+    border: solid 1px gray;
+    margin: 30px ;
+    box-shadow: 2px 2px #c7c7c7;}
+
+.card:hover{
+    background-color: rgb(255, 255, 255);
+    border: solid 2px gray;
+    box-shadow: 5px 5px #888888;
+}
+
+
+main{
+    width:fit-content;
+    margin: 0 auto;
+    
+
+}
+
+form{
+    border: solid 1px rgb(166, 197, 255);
+    margin: 40px 0px;
+    padding: 30px;
+    border-radius: 12px;
+    color: #c7c7c7;
+
+}
+
+
+
+form label{
+    display:block;
+    font-size: 18px;
+}
+
+.input-main{
+    display:block;
+    padding: 12px 0;
+    width: 600px;
+    margin: 8px auto; 
+}
+
+.input-button{
+    display:block;
+    padding: 14px 0;
+    width: 600px;
+    margin: 8px auto; 
+    background-color: #13f7ff;
+    border: none;
+    border-radius: 6px;
+}
+
+h2 {
+margin: 12px 0 8px 0;
+}
+
+.radio{
+    margin: 10px 0;
+}
+
+
+
+p {
+    font-size: 18px;
+}
+
+
+.checkbox{
+    margin: 18px 0;
+}
+
+h4{
+    padding: 18px 70px;
+    background-color: rgb(68, 144, 243);
+    border-radius: 8px;
+    display: inline-block;
+    margin: 8px 0 8px 0;
+}
+
+
+
+/* FOOTER */
+
+footer{
+    position: relative;
+    bottom: -100px;
+    background-color: rgb(29, 18, 56);
+    width: 100%;
+    height: 350px;
+    /* background-image: url(wood_header.jpg) ;*/
+    background-repeat: repeat;
+}
+
+footer div {
+    margin: auto;
+    width:fit-content;
+    height: fit-content;
+    position: relative;
+    top: 80px;
+}
+
+footer div h1 {
+    margin: auto;
+    width: max-content;
+    margin-bottom: 30px;
+}
+
+
+footer div p {
+    display: block;
+    margin: auto;
+    width:fit-content;
+    color: rgb(250, 250, 250);
+}
+
+.ed {
+color: #13f7ff;
+}
+

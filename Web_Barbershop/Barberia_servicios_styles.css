@@ -1,0 +1,200 @@
+body {
+    margin: 0px;
+    height: 1200px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(white-brick-wall1.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+}
+/* HEADER */
+
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(29, 18, 56);
+    padding: 20px 0;
+    
+    }
+    
+    .headline2{
+    margin-top: 0px;
+    }
+    
+    .box{
+        position: relative;
+        margin: auto;
+        width: 940px;
+        
+        }
+        
+    
+    ul {
+        position: absolute;
+        top: 5px;
+        right: 0px;
+    
+    }
+    
+    ul li {
+        display: inline-block;
+        font-size: 15pt;
+        margin-left: 10px;
+        padding: 10px 20px;
+        border-radius: 6px;
+        transition: 0.5s;
+    
+    }
+    
+    ul li:hover {
+        display: inline-block;
+        font-size: 15pt;
+        margin-left: 10px;
+        background-color: rgb(49, 45, 165);
+        padding: 10px 20px;
+        border-radius: 6px;
+    
+    }
+    
+    
+    ul li a {
+        text-decoration:none;
+        text-transform: uppercase;
+        color: rgb(0, 204, 240);
+    }
+
+
+.card{
+    display: inline-block;
+    width:250px;
+    height: 415px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+    border: solid 1px rgb(255, 255, 255);
+    margin: 30px ;
+    color: #eeeeee;
+    transition: .5s;
+  }
+
+.card:hover{
+        /* background-color: #52a5a5;*/
+        border: solid 1px #79d5ff;
+
+    }
+
+
+
+
+.card_container{
+width: fit-content;
+margin: auto;
+margin-top: 50px;
+}
+
+.card div{
+margin: auto;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 8px; 
+    background-image: url(https://content.latest-hairstyles.com/wp-content/uploads/hairstyles-for-men-with-thick-hair.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 270px;
+    background-position: center;
+}
+
+.image2{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 8px; 
+    background-image: url(https://wellgroomedgentleman.com/media/images/salt-and-pepper-beard-and-moustache-with-gray-.width-800.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 240px;
+    background-position: center;
+}
+
+.image3{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 8px; 
+    background-image: url(https://www.menshairstylestoday.com/wp-content/uploads/2019/01/Balbo-Beard.jpg.webp) ;
+    background-repeat: no-repeat;
+    background-size: 220px;
+    background-position: center;
+}
+
+.parrafo {
+    width: 940px;
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+    line-height:  26px;
+    margin-top: 50px;
+    
+    }
+
+
+h2 {
+margin: 12px 0 8px 0;
+font-size: 20px;
+}
+
+
+h4{
+    padding: 18px 70px;
+    background-color: rgb(68, 144, 243);
+    border-radius: 8px;
+    display: inline-block;
+    margin: 8px 0 8px 0;
+    font-size: 20px;
+
+}
+
+/* FOOTER */
+
+footer{
+    position: relative;
+    bottom: -150px;
+    background-color: rgb(29, 18, 56);
+    width: 100%;
+    height: 350px;
+    /* background-image: url(wood_header.jpg) ;*/
+    background-repeat: repeat;
+}
+
+footer div {
+    margin: auto;
+    width:fit-content;
+    height: fit-content;
+    position: relative;
+    top: 80px;
+}
+
+footer div h1 {
+    margin: auto;
+    width: max-content;
+    margin-bottom: 30px;
+}
+
+
+footer div p {
+    display: block;
+    margin: auto;
+    width:fit-content;
+    color: rgb(250, 250, 250);
+}
+
+.ed {
+color: #13f7ff;
+}
+
+
+
+

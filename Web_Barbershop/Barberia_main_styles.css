@@ -1,0 +1,277 @@
+body {
+    margin: 0px;
+    height: 900px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(white-brick-wall1.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* HEADER */
+
+header {
+width: 100%;
+height: 120px;
+background-color: rgb(29, 18, 56);
+padding: 20px 0;
+
+}
+
+.headline2{
+margin-top: 0px;
+}
+
+.box{
+    position: relative;
+    margin: auto;
+    width: 940px;
+    
+    }
+    
+
+ul {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+
+}
+
+ul li {
+    display: inline-block;
+    font-size: 15pt;
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: 0.5s;
+
+}
+
+ul li:hover {
+    display: inline-block;
+    font-size: 15pt;
+    margin-left: 10px;
+    background-color: rgb(49, 45, 165);
+    padding: 10px 20px;
+    border-radius: 6px;
+
+}
+
+
+ul li a {
+    text-decoration:none;
+    text-transform: uppercase;
+    color: rgb(0, 204, 240);
+}
+
+/* LANDING */
+
+.head_container {
+    width: 100%;
+    height: 550px;
+    background-color: #050811;
+    padding: 40px 0;
+    background-image: url(old-fashioned-professional-tattooed-hairdresser1.png);
+    background-repeat: no-repeat;
+    background-position:55% 50% ;
+    background-size: 80%;
+    
+}
+
+.headline{
+width: 940px;
+margin: auto;
+margin-top: 90px;
+color: aliceblue;
+
+}
+
+
+button{
+    margin-top: 10px;
+    padding: 14px 38px;
+    background-color: rgb(80, 199, 241);
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+button a{
+    text-decoration: none;
+    color: rgb(8, 54, 94);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+button:hover{
+    background-color: #ec7e00;
+    box-shadow: 10px 10px 30px #050811;
+}
+
+
+
+.headline1{
+font-size: 35px;
+
+
+}
+
+/* SERVICIOS */
+
+
+main{
+    width:fit-content;
+    margin: 0 auto; 
+}
+
+p{
+    color: aliceblue;
+    line-height:  26px;
+
+}
+
+h2{
+    text-align: center;
+    color: aliceblue;
+}
+.services {
+    position: relative;
+    bottom: -620px;
+    width: 100%;
+    height: 1900px;
+    /*background-color: #b6fdff;*/
+    padding: 50px 0;
+
+}
+
+.services_box{
+    width: 940px;
+    height: 350px;
+    margin: auto ;
+    margin-bottom: 60px;
+
+}
+
+.about_us{
+    position: relative;
+    
+    width: 940px;
+    height: 200px;
+    margin: auto ;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+
+/*.image_chair{
+    background-color: #ec7e00;
+
+    width: 300px;
+    height:  300px;
+}*/
+
+.mapa{
+    /*background-color: rgb(20, 66, 126);*/
+    width: 940px;
+    height: 500px;
+    margin: auto ;
+    margin-top: 70px;
+
+
+}
+
+
+.services_card{
+    display: inline-block;
+    width: 300px;
+    height: 320px;
+    margin: auto ;
+    border: solid 2px #b8e4f5;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+
+
+.services_card:hover{
+    /* background-color: #52a5a5;*/
+    border: solid 2px #d4ec00;
+    border-radius: 80px;
+    filter: 
+    invert(48%) 
+    sepia(13%) 
+    saturate(1000%) 
+    hue-rotate(130deg) 
+    brightness(150%) 
+    contrast(80%);
+}
+
+
+.icon{
+    width: 220px;
+    height:  220px;
+    margin: auto;
+    margin-top: 30px;
+    border: none;
+}
+
+
+
+
+
+h4{
+    text-align: center;
+    color: aliceblue;
+
+
+}
+
+/* FOOTER */
+
+footer{
+    position: relative;
+    bottom: -600px;
+    background-color: rgb(29, 18, 56);
+    width: 100%;
+    height: 350px;
+    /* background-image: url(wood_header.jpg) ;*/
+    background-repeat: repeat;
+}
+
+footer div {
+    margin: auto;
+    width:fit-content;
+    height: fit-content;
+    position: relative;
+    top: 80px;
+}
+
+footer div h1 {
+    margin: auto;
+    width: max-content;
+    margin-bottom: 30px;
+}
+
+
+footer div p {
+    display: block;
+    margin: auto;
+    width:fit-content;
+    color: rgb(250, 250, 250);
+}
+
+.ed {
+color: #13f7ff;
+}
+
+
+
+@media screen and (max-width: 880px){
+    
+.box
+{
+background-color: #ec7e00;
+}
+    
+}
