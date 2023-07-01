@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+<head>
+   <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+    <!-- estilos css -->
+    <link rel="stylesheet" href="encripter_styles.css">
+
+</head>
+<body>
+    <section>
+
+            <div class="header">
+                <img src="encriptalogo.png" alt="" >
+            </div>
+
+            <div class="area_main">
+
+                <div class="main_section_encripta">
+                    <textarea class="area_encriptar" id="encriptar "type="text"placeholder="Ingrese el texto que deseas encriptar aquí"  > </textarea> 
+                    
+                    <div class="buttons">
+                        <input class="btn-encr" type="submit"  onclick="btnEncriptar()" value="Encriptar"></input>
+
+                        <input class="btn-desencr" onclick="btnDesencriptar()"  type="submit" value="Desencriptar"></input>
+                    </div>      
+                </div>
+
+
+                <div class="main_section_desencripta">  
+                    <textarea class="area_desencriptar"  type="text" placeholder="Escribe aquí"> </textarea>
+                    
+                    <input class="btn-copiar" onclick="copiar()" type="submit" value="Copiar"></input>
+                </div>
+    
+
+            </div>
+
+                
+
+        
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
+
