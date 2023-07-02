@@ -1,25 +1,34 @@
 body{
     font-family: 'Montserrat', sans-serif;
 font-family: 'Quicksand', sans-serif;
+background-color: #06867a;
 }
 
 .container{
 background-color: aqua;
 width: 40%;
-height: 700px;
+height: max-content;
 margin: auto;
 padding: 12px;
+padding-bottom: 36px;
 display: flex;
 flex-direction: column;
 align-items: center;
 border-radius: 12px;
+margin-top: 70px;
 
 }
 
 .header{
 width: 100%;
-height: 100px;
-background-color: rgb(52, 100, 100);
+height: 40px;
+margin-top: 40px;
+margin-bottom: 40px;
+text-align: center;
+align-items: center;
+font-family: 'Itim', cursive;
+font-size: 2.5em;
+color: rgba(2, 119, 128, 0.842);
 
 
 }
@@ -27,7 +36,16 @@ background-color: rgb(52, 100, 100);
 .new_task{
 width: 100%;
 box-sizing: border-box;
-padding: 18px 20px;border-radius: 10px;
+padding: 20px 20px;
+border-radius: 30px;
+border: none;
+background-color: rgb(59, 202, 202);
+font-size: 1.2em;
+
+}
+
+.inside{
+
 }
 
 .task_list{
@@ -49,7 +67,7 @@ box-sizing: border-box;
 display: flex;
 justify-content: space-between;
 align-items: center;
-transition: 0.75s;
+transition: 0.45s;
 }
 
 .task:hover{
@@ -64,10 +82,18 @@ justify-content: space-between;
 align-items: center;
 }
 
+.titles{
+display: flex;
+align-self: flex-start;
+font-size: 0.95em;
+text-transform: uppercase;
+}
 
 
 .material-symbols-outlined {
     color: rgb(69, 207, 184);
+    transition: 0.45s;
+
     font-variation-settings:
     'FILL' 0,
     'wght' 400,
@@ -76,7 +102,7 @@ align-items: center;
 }
 
 .material-symbols-outlined:hover {
-    background-color: black;
+    background-color: rgb(0, 167, 144);
     border-radius: 100%;
 
     color: rgb(69, 207, 184);
@@ -112,7 +138,7 @@ box-sizing: border-box;
 display: flex;
 justify-content: space-between;
 align-items: center;
-transition: 0.75s;
+transition: 0.45s;
 }
 
 .task_completed label {
