@@ -93,7 +93,6 @@ text-transform: uppercase;
 .material-symbols-outlined {
     color: rgb(69, 207, 184);
     transition: 0.45s;
-
     font-variation-settings:
     'FILL' 0,
     'wght' 400,
