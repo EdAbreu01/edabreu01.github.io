@@ -18,32 +18,32 @@
     <div class="container">
         <h1 class="header">To-do list</h1>
         <div class="new_task_field">
-            <input class="new_task_input" name="task" type="text" placeholder="Add task" autocomplete="off" data-form-input >
-            <button class="add_task_btn" data-form-btn><span class="material-symbols-outlined">add_circle</span> </button>  
+            <input class="new_task_input" name="task" type="text" placeholder="Add task" autocomplete="off" >
+            <button class="add_task_btn"><span class="material-symbols-outlined">add_circle</span> </button>  
         </div>              
 
         <h3 class="titles">To do</h3>
-        <div class="task_list" data-tarea>
+        <ul class="task_list">
 
 
-
-
-        </div>
+        </ul>
         
         <h3 class="titles">completed</h3>
-        <div class="task_list">
-            <div class="task_completed">
+        <ul class="task_list">
+            <li class="task_completed">
                 <div>
-                    <input type="radio">
-                    <label for="">Primera tarea</label>
+                    <input type="radio" unchecked>
+                    <label for="">Uno</label>
                 </div>
-                <span class="material-symbols-outlined">undo</span>
-            </div>
+                <span class="material-symbols-outlined">cancel</span>
+            </li> 
+        </ul>
+        
 
 
 
     </div>
-    <script src="script_todo.js"></script>
+    <script src="style_todo2.js"></script>
 </body>
 
 <style>

@@ -66,9 +66,11 @@ font-size: 1.2em;
 .task_list{
 width: 100%;
 display: flex;
+justify-content: center;
 flex-direction: column;
 gap: 6px; 
 display: flex;
+padding: 0;
 
 }
 
@@ -76,7 +78,7 @@ display: flex;
 width: 100%;
 height: max-content;
 background-color: rgb(39, 164, 173);
-padding: 10px 6px ;
+padding: 18px 6px ;
 border-radius: 10px;
 box-sizing: border-box;
 display: flex;
@@ -85,13 +87,13 @@ align-items: center;
 transition: 0.45s;
 }
 
-/*
+
 .task:hover{
     width: 100%;
     height: max-content;
     background-color: rgb(119, 224, 231);
-    padding: 10px 6px ;
-    border-radius: 10px;
+    padding: 22px 6px ;
+        border-radius: 10px;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -165,7 +167,7 @@ height: 20px;
 width: 100%;
 height: max-content;
 border: 1px solid #06867a;
-padding: 18px 20px;
+padding: 18px 6px ;
 border-radius: 10px;
 box-sizing: border-box;
 display: flex;
@@ -179,15 +181,16 @@ transition: 0.45s;
 }
 
 
-.task_completed:hover{
-    width: 100%;
-    height: max-content;
-    background-color: rgb(119, 224, 231);
-    padding: 24px 20px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
-    }
+    .task_completed:hover{
+        width: 100%;
+        height: max-content;
+        background-color: rgb(119, 224, 231);
+        border: 1px solid #06867a;
+        padding: 22px 6px ;
+        border-radius: 10px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
