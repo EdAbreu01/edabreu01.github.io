@@ -12,6 +12,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Itim&family=Montserrat:wght@300;400&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
 
+
     <title>Document</title>
 </head>
 <body>
@@ -25,15 +26,15 @@
         <h3 class="titles">To do</h3>
 
         <ul class="task_list" data-ul-tareas>
-            <!--
+            
             <li class="task">
                 <div>
-                    <input type="radio" unchecked>
+                    <input type="checkbox" class="input_tarea" unchecked>
                     <label for="">Uno</label>
                 </div>
-                <span class="material-symbols-outlined">cancel</span>
+                <button class="erase-btn">+</button>
             </li> 
-        -->
+        
         </ul>
         
         <h3 class="titles">completed</h3>
@@ -41,7 +42,7 @@
 
             <li class="task_completed">
                 <div>
-                    <input type="radio" unchecked>
+                    <input type="checkbox" unchecked>
                     <label for="">Uno</label>
                 </div>
                 <span class="material-symbols-outlined">cancel</span>
@@ -54,6 +55,7 @@
 
     </div>
     <script src="script_todo.js"></script>
+    
 </body>
 
 <style>
