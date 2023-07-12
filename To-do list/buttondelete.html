@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" data-delete>
+        <div class="inner">
+            <input type="radio">
+            <p>prueba</p>
+        </div>
+        <button >remove</button>
+    </div>  
+
+
+
+        <script>
+            
+       
+            const deleteBtn = document.querySelector('button');
+        
+            deleteBtn.addEventListener('click', function (e){
+            const item = e.target.parentElement;
+            div.removeChild(item)
+    
+        
+            }
+            return;
+            );
+        
+    
+        </script>
+
+
+
+
+
+    <style>
+
+.container{
+    background-color: aqua;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inner{
+    display: flex;
+}
+
+input{
+    margin-right: 10px;
+}
+
+.bt {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(200, 255, 48);
+    border-radius: 40px;
+
+}
+ </style>
+</body>
+</html>

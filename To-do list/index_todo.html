@@ -18,18 +18,27 @@
     <div class="container">
         <h1 class="header">To-do list</h1>
         <div class="new_task_field">
-            <input class="new_task_input" name="task" type="text" placeholder="Add task" autocomplete="off" >
-            <button class="add_task_btn"><span class="material-symbols-outlined">add_circle</span> </button>  
+            <input class="new_task_input" name="task" type="text" placeholder="Nombre de la tarea" autocomplete="off" data-tarea-nombre>
+            <button class="add_task_btn" data-nuevatarea>ANADIR</button>  
         </div>              
 
         <h3 class="titles">To do</h3>
-        <ul class="task_list">
 
-
+        <ul class="task_list" data-ul-tareas>
+            <!--
+            <li class="task">
+                <div>
+                    <input type="radio" unchecked>
+                    <label for="">Uno</label>
+                </div>
+                <span class="material-symbols-outlined">cancel</span>
+            </li> 
+        -->
         </ul>
         
         <h3 class="titles">completed</h3>
         <ul class="task_list">
+
             <li class="task_completed">
                 <div>
                     <input type="radio" unchecked>
@@ -37,13 +46,14 @@
                 </div>
                 <span class="material-symbols-outlined">cancel</span>
             </li> 
+
         </ul>
         
 
 
 
     </div>
-    <script src="style_todo2.js"></script>
+    <script src="script_todo.js"></script>
 </body>
 
 <style>

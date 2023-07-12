@@ -1,29 +1,30 @@
-const btn = document.querySelector("[data-form-btn]");
+const nuevo_tarea_nombre = document.querySelector('[data-tarea-nombre]');
 
-const createTask = (evento) => {
-    evento.preventDefault()
-    const input = document.querySelector("[data-form-input]")
-    
-    const value = input.value;
-    const lista = document.querySelector("[data-tarea]")
-    const task = document.createElement("div")
-    task.classList.add("task")
-    input.value = "";
-    const content = ` <div class="task" data-tarea>
-    <div>
-        <input type="radio" unchecked>
-        <label for="">${value}</label>
-    </div>
-    <span class="material-symbols-outlined">cancel</span>
-</div>             `;
-    task.innerHTML = content;
+const btn_tarea_nombre = document.querySelector('[data-nuevatarea]')
 
-    lista.appendChild(task);
-    console.log(content);
-};
+const container_tareas = document.querySelector('[data-ul-tareas]')
 
-console.log(btn);
 
-//listener//
-btn.addEventListener("click" ,createTask );
 
+btn_tarea_nombre.addEventListener('click', function(){
+    const container_tarea_li = document.createElement('li');
+    container_tarea_li.classList.add('task');
+    container_tareas.appendChild(container_tarea_li)
+
+    /*console.log('!!!!!!!!!!!!!!!!!!')*/
+
+
+
+    const container_tarea_div = document.createElement('div');
+
+    const container_tarea_input = document.createElement('input');
+
+    const container_tarea_label = document.createElement('label');
+
+    const container_tarea_span = document.createElement('span');
+    container_tarea_span.classList('material-symbols-outlined');
+
+
+
+
+})
