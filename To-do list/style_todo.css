@@ -48,8 +48,19 @@ font-family: 'Montserrat', sans-serif;
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
     background-color: #f6e532;
-    
+    transition: 0.70s;
     }
+
+    .add_task_btn:hover{
+        width: 25%;
+        height: 60px;
+        border-radius: 10px;
+        border: none;
+        padding: 0px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 16px;
+        background-color: #fda829;
+        }
     
     .new_task_input{
     width:73%;
