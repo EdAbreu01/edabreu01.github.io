@@ -58,25 +58,24 @@ margin: auto;
 }
 
 .linkedin{
-background-image: url(\source\linkedin-01.jpg);
+background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/58/Instagram-Icon.png");
 background-position: center;
-background-repeat: no-repeat;
-background-size: 11%;
-width: 20px;
-height: 20px;  
+background-size: 100%;
+width: 26px; 
+height: 26px;  
 }
 
 
 .github{
     background-color: black;
-    width: 20px;
-    height: 20px;  
+    width: 26px; 
+    height: 26px; 
 }
 
 .instagram{
     background-color: black;
-    width: 20px;
-    height: 20px;  
+    width: 26px; 
+    height: 26px;
 }
 
 
