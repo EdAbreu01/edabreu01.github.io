@@ -1,23 +1,10 @@
-@media screen {
-    
-}
-
-   /* 320px — 420px: Mobile devices 
-    
-   @media only screen and (min-width: 320px) and (max-width: 420px) {}
 
 
 
-*/
+   /* 320px — 420px: Mobile devices */
+ @media only screen and (min-width: 320px) and (max-width: 420px) {
 
-
-
-
-
-     /*481px — 768px: iPads, Tablets */
-    @media only screen and (min-width: 421px) and (max-width: 830px) {
-        /*HEADER*/
-
+/*HEADER*/
 .top-yellow{
     width: 100%;
     height:30px;
@@ -30,6 +17,7 @@
     
     .header-content{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     width: 80%;
     margin: auto;
@@ -37,23 +25,21 @@
     
     .header-name{
     font-size: 36px;
+    text-align: center;
+    margin: 12px;
     }
     
     .nav-bar-sm{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 28px;
     list-style: none;
+    padding: 0;
     }
     
     .item{
-    color: var(--black);
-    list-style: none;
-    padding: 12px 22px; 
-    font-family: 'Bitter', serif;
-    font-size: 14px;
-    border: 1px solid var(--black);
-    transition: 0.50s;
+    display:none;
     }
     
     .item:hover{
@@ -123,8 +109,8 @@
     
     .headline1{
     width: 100%;
-    font-size: 80px;
-    line-height: 85px;
+    font-size: 50px;
+    line-height: 55px;
     text-align: center;
     margin-bottom: 20px;
     }
@@ -135,6 +121,8 @@
     line-height: 28px;
     font-family: 'Bitter', serif;
     text-align: center;
+    font-size: 14px;
+
 
     }
     
@@ -164,18 +152,18 @@
     .skills-list{
     display: flex;
     justify-content: center;
-    gap: 36px;
+    gap: 24px;
     height: max-content;
     padding: 12px;
     }
     
     .fa-brands{
-    font-size:45px;
+    font-size:42px;
     color:#180f0f;
     }
     
     .fa-figma{
-    font-size:43px;
+    font-size:40px;
     }
     
     .divider{
@@ -237,7 +225,7 @@
     margin-top: 14px;
     background-color: var(--yellow);
     padding-top: 40px;
-    height: 450px;
+    height: 520px;
     }
     
     .footer-content{
