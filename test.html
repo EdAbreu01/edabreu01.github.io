@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input data-input-one>
+    <input data-input-dos>
+    <button data-btn-one>aceptar</button>
+    
+    <script>
+        
+const texto = document.querySelector('[data-input-one]')
+
+const texto2 = document.querySelector('[data-input-dos]')
+
+const btn = document.querySelector('[data-btn-one]')
+
+
+
+btn.addEventListener('click', function (){
+console.log(texto.value)
+
+
+})
+
+    </script>
+</body>
+</html>

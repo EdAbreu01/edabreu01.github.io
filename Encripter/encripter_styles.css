@@ -7,22 +7,26 @@ background-color: #e8e8e8;
 
 }
 
-section {
+.container_main {
 width: 900px;
 height: max-content;
 border: solid #aeaeae 1px ;
-background-color: aqua;
 margin: auto;
 padding: 18px;
-border-radius: 18px;
+border-radius: 22px;
+margin-top: 80px;
 
 }
 
 .header{
 width: 100% ;
 height: 100px;
-background-color: #ff8383;
+background-image: url(encriptalogo.png);
+background-repeat: no-repeat;
+background-size: 40%;
+background-position: center;
 margin-bottom: 8px;
+
 }
 
 .area_main{
@@ -33,7 +37,6 @@ gap: 8px;
 }
 
 .main_section_encripta{
-background-color: rgb(169, 21, 255);
 width: 60%;
 padding: 10px;
 border-radius: 10px;
@@ -41,10 +44,11 @@ border-radius: 10px;
 
 
 .main_section_desencripta{
-background-color: rgb(255, 215, 37);
+/*background-color: rgb(187, 187, 187);*/
 width: 40%;
 padding: 10px;
-border-radius: 10px;
+border-radius: 18px;
+border: solid 1px #131313;
 
 }
 
@@ -53,9 +57,14 @@ width: 100%;
 height: 400px;
 border: none;
 box-sizing: border-box;
-background-color: #ff8383;
+/*background-color: #ff8383;*/
 font-size: 24px;
 font-family: 'Quicksand', sans-serif;
+background-color: #d7d7d7;
+border-radius: 14px;
+padding: 10px;
+
+
 }
 
 
@@ -67,11 +76,14 @@ box-sizing: border-box;
 background-image: url(c18204699988879836cf630cac112d37e6cf933f.png);
 background-repeat: no-repeat;
 background-position: 50% 10%;
-background-color: rgb(16, 102, 151);
+background-color: #e8e8e8;
 text-align: center;
 font-size: 24px;
 font-family: 'Quicksand', sans-serif;
+color: rgb(2, 60, 111);
+border-radius: 14px;
 }
+
    
 
 
@@ -107,6 +119,9 @@ border: solid #131313 1px ;
 font-size: 16px;
 font-family: 'Quicksand', sans-serif;
 background-color: rgb(47, 176, 246);
+border: none;
+border-radius: 12px;
+transition: 0.50s;
 }
 
 .btn-desencr {
@@ -115,29 +130,34 @@ padding: 18px 28px;
 font-size: 16px;
 font-family: 'Quicksand', sans-serif;
 background-color: rgb(47, 176, 246);
+border: none;
+border-radius: 12px;
+transition: 0.50s;
 }
         
 .btn-copiar {
-    margin-top: 8px;
-
+margin-top: 8px;
 width: 100%;
 padding: 18px 28px;
 font-size: 16px;
 font-family: 'Quicksand', sans-serif;
-background-color: rgb(55, 115, 150);
+background-color: rgb(159, 159, 159);
 color: rgb(255, 255, 255);
+border: none;
+border-radius: 12px;
+transition: 0.50s;
 }
 
 
-.boton1:hover{
+.btn-encr:hover{
 background-color: rgb(14, 118, 174); 
 }
 
-.boton2:hover{
+.btn-desencr:hover{
 background-color: rgb(14, 118, 174); 
 }
 
-.botoncopiar:hover{
+.btn-copiar:hover{
 background-color: rgb(246, 173, 47);
 }
 

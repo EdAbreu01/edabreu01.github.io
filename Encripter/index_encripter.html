@@ -12,29 +12,29 @@
 
 </head>
 <body>
-    <section>
+    <section class="container_main">
 
             <div class="header">
-                <img src="encriptalogo.png" alt="" >
+                <img src="" alt="" >
             </div>
 
             <div class="area_main">
 
                 <div class="main_section_encripta">
-                    <textarea class="area_encriptar" id="encriptar "type="text"placeholder="Ingrese el texto que deseas encriptar aquí"  > </textarea> 
+                    <textarea class="area_encriptar" id="encriptar "type="text"placeholder="Ingrese el texto que deseas encriptar aquí"> </textarea> 
                     
                     <div class="buttons">
-                        <input class="btn-encr" type="submit"  onclick="btnEncriptar()" value="Encriptar"></input>
+                        <button class="btn-encr" type="submit"  value="Encriptar"  data-btn-encript >Encrypt</button>
 
-                        <input class="btn-desencr" onclick="btnDesencriptar()"  type="submit" value="Desencriptar"></input>
+                        <button class="btn-desencr"  type="submit" value="Desencriptar" data-btn-desencript>Desencrypt</button>
                     </div>      
                 </div>
 
 
                 <div class="main_section_desencripta">  
-                    <textarea class="area_desencriptar"  type="text" placeholder="Escribe aquí"> </textarea>
+                    <textarea class="area_desencriptar"  type="text" placeholder="Escribe aquí para desencriptar el texto" data-area-desencript></textarea>
                     
-                    <input class="btn-copiar" onclick="copiar()" type="submit" value="Copiar"></input>
+                    <button class="btn-copiar" type="submit" value="Copiar" onclick="copy()" data-btn-copiar >Copy</button>
                 </div>
     
 
@@ -44,7 +44,7 @@
 
         
     </section>
-    <script src="app.js"></script>
+    <script src="encrypter_script.js"></script>
 </body>
 </html>
 
