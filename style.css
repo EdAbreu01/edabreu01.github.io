@@ -115,10 +115,11 @@ width: max-content;
 display:flex;
 justify-content: start;
 align-items: center;
+
 }
 
 .headline1{
-width: 51%;
+width: 50%;
 font-size: 80px;
 line-height: 85px;
 }
