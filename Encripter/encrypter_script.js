@@ -1,34 +1,32 @@
 const area_encripta = document.querySelector('textarea')
 
-const btn_encripta = document.querySelector('[data-btn-encript]')
+const btn_encripta = document.querySelector('[data-btn-enc]')
 
-const area_desencripta = document.querySelector('[data-area-desencript]')
+const area_desencripta = document.querySelector('[data-area-des]')
 
 const btn_desencripta = document.querySelector('[data-btn-desencript]')
 
 const btn_copiar = document.querySelector('[data-btn-copiar]')
 
+
+/*btn_copiar.display = "none";*/
+
+
 area_encripta.value = '';
 
-btn_copiar.display = "none";
+area_desencripta.textContent = "esto es una prueba"
 
-
-
-
+/*
 //BOTON ENCRIPTAR//
 btn_encripta.addEventListener('click', function(){
-    
-    var text_intro = area_encripta.value;
-
-    var result_en = text_intro.replace(/[o]/g, "ober");
-    
-    console.log(result_en)
-
-    area_desencripta.textContent = result_en;
+    const text_intro = area_encripta.value;
+    console.log(text_intro)
     area_encripta.value = '';
-    return; 
+
 }
 )
+
+
 
 function copy (){
     area_desencripta.select()
@@ -39,7 +37,7 @@ function copy (){
 }
 
 
-/*
+
 //BOTON COPIAR//
     btn_copiar.addEventListener('click', function(){
         
@@ -48,12 +46,13 @@ function copy (){
         navigator.clipboard.writeText(area_desencripta.value)
 
         alert("Texto copiado")
+        console.log(result_en)
        area_desencripta.value = '';
         return; 
 
     })
         
-
+/*
 
 
 
